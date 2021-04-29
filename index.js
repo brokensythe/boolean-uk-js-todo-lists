@@ -55,3 +55,5 @@ for (const item of toDoList) {
         toDoString += `username: ` + currentUser.username + `, todo id: ` + item.id + `, title: ` + item.title + `, completed ` + syntaxUpdate + `\n\n`
     }
 }
+
+alert(toDoString)
